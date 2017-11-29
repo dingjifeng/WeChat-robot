@@ -1,10 +1,62 @@
-<div>
-  <a href="javascript:" [routerLink]="['/robot']" class="btn btn-info">机器人</a>
-  <a href="javascript:" [routerLink]="['/group']" class="btn btn-info">微信群</a>
-  <a href="javascript:" [routerLink]="['/friends']" class="btn btn-info">微信好友</a>
-  <a href="javascript:" [routerLink]="['/customResponse']" class="btn btn-info">自定义回复</a>
-</div>
-<div class="container-fluid">
-  <router-outlet></router-outlet>
-</div>
+<!--<ul class="container-fluid nav list-unstyled p-1">-->
+<!--<li class="nav-item col"><a href="javascript:" [routerLink]="['/robot']" class="btn btn-info">机器人</a></li>-->
+<!--<li class="nav-item col"><a href="javascript:" [routerLink]="['/group']" class="btn btn-info">微信群</a></li>-->
+<!--<li class="nav-item col"><a href="javascript:" [routerLink]="['/friends']" class="btn btn-info">微信好友</a></li>-->
+<!--<li class="nav-item col"><a href="javascript:" [routerLink]="['/customResponse']" class="btn btn-info">自定义回复</a></li>-->
+<!--</ul>-->
+<!--<div class="container-fluid">-->
+<!--<router-outlet></router-outlet>-->
+<!--</div>-->
 
+<!--<div class="flex-column h-100 d-flex">-->
+<!--<header style="height: 60px" class="bg-dark"></header>-->
+<!--<section class="col d-flex flex-row p-0">-->
+<!--<div style="width: 250px;margin-bottom: -35px;background-color: aqua"></div>-->
+<!--<div class="col bg-secondary"></div>-->
+<!--</section>-->
+<!--<footer style="margin-left: 250px;height: 35px;line-height: 35px;border-top: 1px solid #e6e6e6" class="bg-success">-->
+<!--版权所有，盗版必究-->
+<!--</footer>-->
+<!--</div>-->
+
+<div class="flex-column h-100 d-flex">
+  <header class="bg-dark"></header>
+  <section class="col d-flex flex-row p-0">
+    <aside class="aside-navbar">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a href="javascript:" class="nav-link" [routerLink]="['/robot']" routerLinkActive="active">
+            <i class="fa fa-lg fa-home mr-1"></i>
+            微信机器人
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:" class="nav-link" [routerLink]="['/group']" routerLinkActive="active">
+            <i class="fa fa-lg fa-group mr-1"></i>
+            微信群
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:" class="nav-link" [routerLink]="['/friends']" routerLinkActive="active">
+            <i class="fa fa-lg fa-user mr-1"></i>
+            微信好友
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:" class="nav-link" [routerLink]="['/customResponse']" routerLinkActive="active">
+            <i class="fa fa-lg fa-comment mr-1"></i>
+            自定义回复
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <div class="col bg-danger d-flex flex-column p-0">
+      <div class="col bg-primary">
+        <router-outlet></router-outlet>
+      </div>
+      <footer style="height: 35px;line-height: 35px;border-top: 1px solid #e6e6e6" class="bg-success">
+        版权所有，盗版必究
+      </footer>
+    </div>
+  </section>
+</div>

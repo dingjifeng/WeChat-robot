@@ -1,0 +1,19 @@
+header {
+  height: 60px;
+  line-height: 60px;
+}
+
+.aside-navbar {
+  width: 250px;
+  background-color: #332f26;
+}
+
+.aside-navbar .nav a {
+  color: #f8f8f8;
+}
+
+.aside-navbar .nav a:hover, .aside-navbar .nav a.active {
+  background-color: #5c584d;
+  color: #07ca36;
+}
+
