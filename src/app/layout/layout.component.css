@@ -2,14 +2,20 @@ header {
   height: 60px;
   line-height: 60px;
 }
+.bar{
+  height: 60px;
+  line-height: 60px;
+  padding: 0 1rem;
+}
 
-.aside-navbar {
+.w-240 {
   width: 240px;
-  /*background-color: #31383A;*/
 }
 
 .aside-navbar .nav a {
   color: #f8f8f8;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .aside-navbar .nav a:hover, .aside-navbar .nav a.active {
