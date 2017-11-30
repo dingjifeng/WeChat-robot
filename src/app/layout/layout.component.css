@@ -4,8 +4,8 @@ header {
 }
 
 .aside-navbar {
-  width: 250px;
-  background-color: #332f26;
+  width: 240px;
+  /*background-color: #31383A;*/
 }
 
 .aside-navbar .nav a {
@@ -13,7 +13,21 @@ header {
 }
 
 .aside-navbar .nav a:hover, .aside-navbar .nav a.active {
-  background-color: #5c584d;
-  color: #07ca36;
+  background-color: #616a6b;
+  color: #09BB07;
+}
+
+.aside-navbar .nav a i {
+  width: 20px;
+  margin-right: .25rem;
+}
+
+footer {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 1rem;
+  border-top: 1px solid #e6e6e6;
+  background-color: #fdfdfd;
+  font-size: .85rem;
 }
 
