@@ -1,4 +1,5 @@
 import {Component, ElementRef, HostListener, OnInit, ViewChild} from '@angular/core';
+import * as _ from 'lodash';
 
 @Component({
   selector: 'app-layout',

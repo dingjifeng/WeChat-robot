@@ -1,3 +1,16 @@
-<p>
-  my-robot works!
-</p>
+<div class="wrapper">
+  <ul>
+    <li (click)="tabIndex=1" [class.act]="tabIndex===1">
+      <span>全部</span>
+    </li>
+    <li (click)="tabIndex=2" [class.act]="tabIndex===2">
+      <span [fontScroll]>这个是泰国菜好吃的很</span>
+    </li>
+    <li (click)="tabIndex=3" [class.act]="tabIndex===3">
+      <span>湘菜</span>
+    </li>
+    <li (click)="tabIndex=4" [class.act]="tabIndex===4">
+      <span>粤菜</span>
+    </li>
+  </ul>
+</div>
