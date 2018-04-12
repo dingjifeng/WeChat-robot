@@ -1,8 +1,9 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { MyRobotRoutingModule } from './my-robot-routing.module';
+import {MyRobotRoutingModule} from './my-robot-routing.module';
 import {MyRobotComponent} from './my-robot.component';
+import {FontScrollDirective} from '../../drective/font-scroll/font-scroll.directive';
 
 @NgModule({
   imports: [
@@ -10,7 +11,10 @@ import {MyRobotComponent} from './my-robot.component';
     MyRobotRoutingModule
   ],
   declarations: [
-    MyRobotComponent
+    MyRobotComponent,
+    FontScrollDirective
   ]
 })
-export class MyRobotModule { }
+
+export class MyRobotModule {
+}
