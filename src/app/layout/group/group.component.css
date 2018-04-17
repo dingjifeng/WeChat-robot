@@ -1,0 +1,31 @@
+.wrapper {
+  width: 500px;
+  height: 600px;
+  margin: 50px auto;
+}
+
+.pro-list {
+  width: 300px;
+}
+
+.pro-list li {
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  line-height: 19px;
+  border: 1px solid #e6e6e6;
+  border-top-width: 0;
+}
+
+.pro-list li:first-child {
+  border-top: 1px solid #e6e6e6;
+}
+
+.pro-list li .pro-title {
+  max-width: 200px;
+}
+
+

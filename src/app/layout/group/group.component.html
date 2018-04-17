@@ -1,3 +1,10 @@
-<p>
-  group works!
-</p>
+<div class="wrapper">
+  <ul class="pro-list">
+    <ng-container *ngFor="let pro of product">
+      <li *ngIf="pro.supplyLimit | supplyLimit:date">
+        <span class="pro-title">{{pro.title}}</span>
+        <span class="pro-price">${{pro.price}}</span>
+      </li>
+    </ng-container>
+  </ul>
+</div>
