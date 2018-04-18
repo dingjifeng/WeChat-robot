@@ -1,12 +1,13 @@
 import {Pipe, PipeTransform} from '@angular/core';
+import * as _ from 'lodash';
 
 @Pipe({
   name: 'supplyLimit'
 })
 export class SupplyLimitPipe implements PipeTransform {
 
-
   transform(value: any, d?: Date): any {
+    if (_.isEmpty(value)) return true;
     let day = d.getDay();
     day = day === 0 ? 7 : day;
     let start = value[day].startedAt,
