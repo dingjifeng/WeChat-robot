@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    /*color: #000;*/
+}
+
+/*弹性布局*/
+.flex-v-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-h-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-h-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-h-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-auto {
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-direction-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/*end*/
+
+body {
+    background: url("../img/bg.jpeg") no-repeat;
+    background-size: 100% 100%;
+    height: 3000px;
+    width: 100%;
+}
+
+header {
+    width: 1164px;
+    margin: 0 auto;
+    padding-left: 4px;
+    padding-top: 12px;
+}
+
+header .logo {
+    height: 58px;
+}
+
+.nav {
+    padding-top: 8px;
+}
+
+.nav ul li a {
+    display: inline-block;
+    padding: 18px 20px;
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 14px;
+    color: #463a1f;
+}
+
+.nav ul li a.act {
+    color: #fead00;
+    border-bottom: 1px solid #fead00;
+}
+
+.nav .success-case-btn {
+    width: 180px;
+    height: 50px;
+    background-color: #463a1f;
+    box-shadow: 0 15px 30px 0 rgba(255, 175, 3, 0.5);
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+.nav .success-case-btn a {
+    display: block;
+    line-height: 50px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #fff;
+}
