@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 ul {
@@ -102,14 +103,31 @@ header .logo {
 .nav ul li a {
     display: inline-block;
     padding: 18px 20px;
+
+}
+
+.nav ul li a span {
     font-family: AdobeHeitiStd-Regular;
     font-size: 14px;
     color: #463a1f;
 }
 
-.nav ul li a.act {
+.nav ul li.act a span {
     color: #fead00;
-    border-bottom: 1px solid #fead00;
+    position: relative;
+}
+
+.nav ul li.act a span:after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 0.25em;
+    background: linear-gradient(135deg, transparent, transparent 45%, #fead00, transparent 55%, transparent 100%),
+    linear-gradient(45deg, transparent, transparent 45%, #fead00, transparent 55%, transparent 100%);
+    background-size: 0.5em 0.5em;
+    background-repeat: repeat-x, repeat-x;
 }
 
 .nav .success-case-btn {
@@ -128,4 +146,10 @@ header .logo {
     font-family: MicrosoftYaHei;
     font-size: 14px;
     color: #fff;
+}
+
+.banner {
+    width: 1409px;
+    margin: 0 auto;
+    padding: 60px 0 136px 34px;
 }
