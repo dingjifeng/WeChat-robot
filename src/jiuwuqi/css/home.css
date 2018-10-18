@@ -86,7 +86,7 @@ body {
 }
 
 header {
-    width: 1164px;
+    width: 1168px;
     margin: 0 auto;
     padding-left: 4px;
     padding-top: 12px;
@@ -150,6 +150,6 @@ header .logo {
 
 .banner {
     width: 1409px;
-    margin: 0 auto;
+    margin-left: 380px;
     padding: 60px 0 136px 34px;
 }
