@@ -1,155 +1,161 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    /*color: #000;*/
+  text-decoration: none;
+  /*color: #000;*/
 }
 
 /*弹性布局*/
 .flex-v-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .flex-h-center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .flex-h-between {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-h-end {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .flex-auto {
-    flex: 1;
+  flex: 1;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-direction-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-direction-column-reverse {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .flex-direction-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-direction-row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-nowrap {
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 /*end*/
 
 body {
-    background: url("../img/bg.jpeg") no-repeat;
-    background-size: 100% 100%;
-    height: 3000px;
-    width: 100%;
+  background: url("../img/bg.jpeg") no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.14rem;
+  height: 30rem;
+  width: 100%;
 }
 
 header {
-    width: 1168px;
-    margin: 0 auto;
-    padding-left: 4px;
-    padding-top: 12px;
+  width: 11.68rem;
+  margin: 0 auto;
+  padding-left: 0.04rem;
+  padding-top: 0.12rem;
 }
 
 header .logo {
-    height: 58px;
+  height: 0.58rem;
 }
 
 .nav {
-    padding-top: 8px;
+  padding-top: 0.08rem;
 }
 
 .nav ul li a {
-    display: inline-block;
-    padding: 18px 20px;
+  display: inline-block;
+  padding: 0.18rem 0.2rem;
 
 }
 
 .nav ul li a span {
-    font-family: AdobeHeitiStd-Regular;
-    font-size: 14px;
-    color: #463a1f;
+  font-family: AdobeHeitiStd-Regular;
+  font-size: 0.14rem;
+  color: #463a1f;
 }
 
 .nav ul li.act a span {
-    color: #fead00;
-    position: relative;
+  color: #fead00;
+  position: relative;
 }
 
 .nav ul li.act a span:after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 100%;
-    height: 0.25em;
-    background: linear-gradient(135deg, transparent, transparent 45%, #fead00, transparent 55%, transparent 100%),
-    linear-gradient(45deg, transparent, transparent 45%, #fead00, transparent 55%, transparent 100%);
-    background-size: 0.5em 0.5em;
-    background-repeat: repeat-x, repeat-x;
+  content: '';
+  position: absolute;
+  bottom: -0.04rem;
+  left: 0;
+  width: 100%;
+  height: 0.25em;
+  background: linear-gradient(135deg, transparent, transparent 45%, #fead00, transparent 55%, transparent 100%),
+  linear-gradient(45deg, transparent, transparent 45%, #fead00, transparent 55%, transparent 100%);
+  background-size: 0.5em 0.5em;
+  background-repeat: repeat-x, repeat-x;
 }
 
 .nav .success-case-btn {
-    width: 180px;
-    height: 50px;
-    background-color: #463a1f;
-    box-shadow: 0 15px 30px 0 rgba(255, 175, 3, 0.5);
-    border-radius: 25px;
-    overflow: hidden;
-    margin-left: 5px;
+  width: 1.8rem;
+  height: 0.5rem;
+  background-color: #463a1f;
+  box-shadow: 0 0.15rem 0.3rem 0 rgba(255, 175, 3, 0.5);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  margin-left: 0.05rem;
 }
 
 .nav .success-case-btn a {
-    display: block;
-    line-height: 50px;
-    font-family: MicrosoftYaHei;
-    font-size: 14px;
-    color: #fff;
+  display: block;
+  line-height: 0.5rem;
+  font-family: MicrosoftYaHei;
+  font-size: 0.14rem;
+  color: #fff;
 }
 
 .banner {
-    width: 1409px;
-    margin-left: 380px;
-    padding: 60px 0 136px 34px;
+  width: 14.09rem;
+  margin-left: 3.8rem;
+  padding: 0.6rem 0 1.36rem 0.34rem;
+}
+
+.banner .img-wrapper img {
+  width: 9.04rem;
+  height: 5.2rem;
 }
